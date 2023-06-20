@@ -15,7 +15,7 @@ let data=TheData.map(a=>{
         <h3>Name: {a.title.slice(0,30)}</h3>
         <h6>Name: {a.description.slice(0,100)}</h6>
         <h4>Price: {a.price}</h4>
-        <button style={{marginLeft:"100px",padding:"5px 100px",background:"white"}}>BUY</button>
+        <button className='detailsbuybtn'>BUY</button>
         </div>
       </div>
     ):null

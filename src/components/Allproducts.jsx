@@ -17,8 +17,8 @@ export default function Allproducts() {
           <td>{data.id}</td>
           <td>{data.title.slice(0, 10)}</td>
           <td>{data.description.slice(0, 20)}</td>
-          <td >{"............."+data.price}</td>
-          <td>{" ..............>  "+data.rating.rate}</td>
+          <td >{"............"+data.price +" $"}</td>
+          <td>{" ..............>  "+data.rating.rate+"/5"}</td>
           <td>
             <Link to={`/details/${data.id}`}>
               {" "}
@@ -38,7 +38,7 @@ export default function Allproducts() {
             >
               Delete
             </button>
-            <Link to={`/editPage${data.id}`}>
+            <Link to={`/editPage/${data.id}`}>
               <button>EDIT</button>
             </Link>
           </td>

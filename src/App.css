@@ -9,16 +9,16 @@ table tr {
 table thead tr {
   display: grid;
   background-color: rgb(4, 115, 195);
-  grid-template-columns: repeat(6 , auto);
+  grid-template-columns: repeat(6, auto);
   gap: 100px;
 }
-table tr td{
+table tr td {
   display: flex;
   /* justify-content: space-around; */
   padding-left: 50px;
   width: 190px;
 }
-button{
+button {
   padding: 7px;
   background-color: gray;
   border: none;
@@ -26,11 +26,11 @@ button{
   cursor: pointer;
   border-radius: 20px;
 }
-button:hover{
+button:hover {
   background-color: black;
   color: white;
 }
-.Details{
+.Details {
   width: 500px;
   height: 600px;
   border-radius: 30px;
@@ -38,26 +38,26 @@ button:hover{
   background-color: skyblue;
   margin: auto;
 }
-body{
-  background-color: rgb(209, 203, 192)
+body {
+  background-color: rgb(209, 203, 192);
 }
-.TheProductInDetails img{
+.TheProductInDetails img {
   width: 100%;
   height: 300px;
-  border-top-right-radius  : 20px;
-  border-top-left-radius  : 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
-.TheProductInDetails h2{
+.TheProductInDetails h2 {
   color: blue;
 }
-.TheProductInDetails h4{
+.TheProductInDetails h4 {
   color: red;
 }
-.TheProductInDetails .flexx{
+.TheProductInDetails .flexx {
   margin: 20px;
   padding: 10px;
 }
-.editPage{
+.editPage {
   background-color: rgb(15, 92, 122);
   width: 600px;
   height: 400px;
@@ -65,33 +65,40 @@ body{
   border-radius: 30px;
   position: relative;
 }
-.editPage input{
-  width:500px ;
-  height:30px;
+.editPage input {
+  width: 500px;
+  height: 30px;
   margin: 0;
   border: none;
   outline: none;
   font-size: 15px;
   border-radius: 10px;
 }
-.contentOfEditPage{
+.contentOfEditPage {
   position: absolute;
   left: 40px;
 }
-.priceAndRate{
-  display: flex;  
+.priceAndRate {
+  display: flex;
   width: 100%;
   margin-top: 30px;
   justify-content: space-around;
 }
-.priceAndRate input{
+.priceAndRate input {
   width: 100px;
   margin-top: 14px;
 }
-.submit{
+.submit {
   background-color: rgb(57, 57, 249);
   cursor: pointer;
 }
-.submit:hover{
+.submit:hover {
   background-color: aqua;
+}
+.detailsbuybtn {
+  margin-left: "100px";
+  padding: "5px 100px";
+  background: "white";
+  width: 300px;
+  margin-left: 70px;
 }
