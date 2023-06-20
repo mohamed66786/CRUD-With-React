@@ -1,6 +1,6 @@
 table tr {
   display: grid;
-  grid-template-columns: repeat(6, auto);
+  grid-template-columns: repeat(8, auto);
   background-color: rgb(113, 158, 191);
   /* gap: 100px; */
   padding: 10px;
@@ -9,11 +9,12 @@ table tr {
 table thead tr {
   display: grid;
   background-color: rgb(4, 115, 195);
-  grid-template-columns: repeat(6, auto);
-  gap: 200px;
+  grid-template-columns: repeat(6 , auto);
+  gap: 100px;
 }
 table tr td{
   display: flex;
+  /* justify-content: space-around; */
   padding-left: 50px;
   width: 190px;
 }
@@ -55,4 +56,42 @@ body{
 .TheProductInDetails .flexx{
   margin: 20px;
   padding: 10px;
+}
+.editPage{
+  background-color: rgb(15, 92, 122);
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  border-radius: 30px;
+  position: relative;
+}
+.editPage input{
+  width:500px ;
+  height:30px;
+  margin: 0;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  border-radius: 10px;
+}
+.contentOfEditPage{
+  position: absolute;
+  left: 40px;
+}
+.priceAndRate{
+  display: flex;  
+  width: 100%;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+.priceAndRate input{
+  width: 100px;
+  margin-top: 14px;
+}
+.submit{
+  background-color: rgb(57, 57, 249);
+  cursor: pointer;
+}
+.submit:hover{
+  background-color: aqua;
 }

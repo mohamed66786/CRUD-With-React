@@ -3,7 +3,9 @@ import TheData from "./Data";
 
 export default function Details() {
 let itemid=+window.location.href.slice(30,(window.location.href.length))
-console.log(itemid)
+// console.log(itemid)
+
+//conditinal rendring #############
 let data=TheData.map(a=>{
     return a.id===itemid? (
       <div key={a.id} className='TheProductInDetails'>
